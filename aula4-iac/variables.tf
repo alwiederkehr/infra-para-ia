@@ -42,3 +42,11 @@ variable "memoria" {
   type        = number
   default     = 1
 }
+
+variable "node_vm_size" {
+  default = "Standard_D2as_v7"
+}
+
+variable "node_count" {
+  default = 1
+}
